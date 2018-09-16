@@ -1,4 +1,4 @@
-=# Author: Roxanne Lai 9/6/18
+# Author: Roxanne Lai 9/6/18
 # CMPT 120L 113
 # A program that incorporates input and output statements, variable assignment, and string concatenation.
      
