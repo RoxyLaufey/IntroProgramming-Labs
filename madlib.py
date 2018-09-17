@@ -17,4 +17,6 @@ def main():
     print("please enter a word for each part of speech")
     promptForWords()
     makeAndPrintSentence()
+
+
 main()
