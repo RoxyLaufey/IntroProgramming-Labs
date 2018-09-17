@@ -5,18 +5,23 @@
 # A program that incorporates input and output statements, variable assignment, and string concatenation.
 
 
-def story():
+def makeAndPrintSentence():
+    print("Once upon a time there was a", adjective, noun, ". It was", verb, "to get to the", place, "for a party. In the end the", noun, "made it on time!")
+
+
+def promptForWords():
+    global adjective, noun, verb, place
     adjective = input("Adjective: ")
     noun = input("Noun: ")
     verb = input("Verb: ")
     place = input("Place: ")
-    print("Once there was a " + adjective + " " + noun + ". This " + noun + " was " + verb + " " + place + ". Luckily, the " + noun + " got there on time. Hurray!")
 
 
 def main():
     print("Mad Libs")
-    print("Please enter a word for each part of speech")
-    story()
+    print("please enter a word for each part of speech")
+    promptForWords()
+    makeAndPrintSentence()
 
 
 main()
