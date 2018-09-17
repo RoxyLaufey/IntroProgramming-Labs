@@ -1,6 +1,7 @@
+# Author: Roxanne Lai
+# CMPT 120L 113
 # Introduction to programming
 # Date: 9/6/18
-# Author: Roxanne Lai
 
 
 def main():

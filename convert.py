@@ -1,10 +1,15 @@
-# convert.py
+# Author: Roxanne Lai
+# CMPT 120L 113
+# Introduction to programming
+# Date: 9/6/18
 # A program to convert Celsius temperatures to Fahrenheit
 # by: Roxanne Lai
 
+
 def main():
     celsius = eval(input("What is the Celsius temperature? "))
-    fahrenheit = ((9/5) * celsius) +32
-    print("The temperature is", farenheit, "degrees Fahrenheit.")
-main()
+    fahrenheit = ((9/5) * celsius) + 32
+    print("The temperature is", fahrenheit, "degrees Fahrenheit.")
 
+
+main()
