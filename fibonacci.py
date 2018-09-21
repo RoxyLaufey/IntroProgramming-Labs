@@ -1,5 +1,7 @@
+#  Author: Roxanne Lai
+#  CMPT 120L 113
 #  Introduction to programming
-#  Date: 9/20/18
+#  Date: 9/6/18
 #  separate variables for the result, the previous Fibonacci number, and the Fibonacci
 #  number before the previous one.
 #  loop, count up to n and compute the next result, being sure
@@ -20,4 +22,3 @@ def main():
 
 
 main()
-
