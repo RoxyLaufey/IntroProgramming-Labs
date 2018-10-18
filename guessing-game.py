@@ -18,6 +18,9 @@ while not guess == answer:
     if userGuess == answer:
         print("you guessed correctly, you win!")
         break
+    elif userGuess == "quit":
+        print("sorry this guessing game is too hard for you!")
+        break
     else:
         print("You did not guess the right animal, guess again")
 
