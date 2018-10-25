@@ -17,9 +17,13 @@ def showOutro():
 
 
 def numbers():
-    num1 = int(input("Enter the first number: "))
-    num2 = int(input("Enter the second number: "))
-    return num1, num2
+    while True:
+        try:
+            num1 = int(input("Enter the first number: "))
+            num2 = int(input("Enter the second number: "))
+            return num1, num2
+        except ValueError:
+            print("\nYou have entered something other than a NUMBER!")
 
 
 def doLoop():
@@ -38,6 +42,9 @@ def doLoop():
         elif cmd == "div":
             num1, num2 = numbers()
             result = num1 // num2
+        elif cmd == "power":
+            num1, num2 = numbers()
+            result = num1 ** num2
         elif cmd == "quit":
             break
         else:
